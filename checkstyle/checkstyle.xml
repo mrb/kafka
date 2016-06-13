@@ -68,10 +68,6 @@
     <module name="TypeName"/>
     <module name="AvoidStarImport"/>
 
-    <!-- dependencies -->
-    <module name="ImportControl">
-      <property name="file" value="${importControlFile}"/>
-    </module>
 
     <!-- whitespace -->
     <module name="GenericWhitespace"/>

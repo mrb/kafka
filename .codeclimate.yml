@@ -1,0 +1,27 @@
+engines:
+  checkstyle:
+    enabled: true
+    config: checkstyle/checkstyle.xml
+    channel: "beta"
+  pmd:
+    enabled: true
+    channel: "beta"
+
+ratings:
+  paths:
+  - "**.java"
+
+exclude_paths:
+  - "bin/"
+  - "build/"
+  - "clients/src/test/"
+  - "config/"
+  - "connect/src/test/"
+  - "core/src/test/"
+  - "docs/"
+  - "gradle/"
+  - "log4j-appender/src/test/"
+  - "logs/"
+  - "streams/src/test/"
+  - "tests/"
+  - "vagrant/"
